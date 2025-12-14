@@ -135,27 +135,104 @@
 
 # Exercise 12: Ask the user to enter a number n, then print the first n numbers
 # in the Fibonacci sequence.
-print()
-print("12. ")
-n=int(input())
-a, b=0,1
-for _ in range(n):
-    print(a, end=" ")
-    a, b = b, a+b
-print()
+# print()
+# print("12. ")
+# n=int(input())
+# a, b=0,1
+# for _ in range(n):
+#     print(a, end=" ")
+#     a, b = b, a+b
+# print()
 
-# Exercise 13: Ask the user to enter a number and compute the sum of all its
-# digits.
-# Exercise 14: Ask the user to input a string and a character, then count how
-# many times the character appears in the string.
-# Exercise 15: Write a recursive function to compute the factorial of a number
-# entered by the user.
-# Exercise 16: Ask the user to enter two positive integers and compute their
-# greatest common divisor (GCD) using a loop.
-# Exercise 17: Write a program to print all perfect numbers between 1 and
-# 1000. A perfect number equals the sum of its proper divisors.
+# # Exercise 13: Ask the user to enter a number and compute the sum of all its
+# # digits.
+# n=int(input())
+# sum =0 
+# while n !=0:
+#     last_digit=n%10
+#     sum +=last_digit
+#     n//=10
+# print(sum)
+    
+
+
+# # Exercise 14: Ask the user to input a string and a character, then count how
+# # many times the character appears in the string.
+# s=input()
+# c=input("chon chu cai bat ky")
+# t=0
+# for i in s:
+#     if i == c:
+#         t+=1
+# print(t)
+    
+
+# # Exercise 15: Write a recursive function to compute the factorial of a number
+# # entered by the user.
+
+# # n = int(input())
+# # res = 1
+# # if n == 0 or n == 1:
+# #     res = 1
+# # else:
+# #     for i in range(2, n + 1):
+# #         res = res * i
+# # print(res)
+# # 
+# n=int(input())
+
+# def fac(x):
+#     res = 1
+#     if x == 0 or x == 1:
+#         return 1
+#     else:
+#         for i in range(2, x+1):
+#             res = res * i
+#         return res
+# print(fac(n))
+
+
+# # Exercise 16: Ask the user to enter two positive integers and compute their
+# # greatest common divisor (GCD) using a loop.
+
+# a,b=map(int,input().split())
+# while b!=0:
+#     a,b=b,a%b
+# print(a)
+
+
+# # Exercise 17: Write a program to print all perfect numbers between 1 and
+# # 1000. A perfect number equals the sum of its proper divisors.
+# # 
+# # 
+# # 
+# # ap dung tu bai 13
+# # # Exercise 13: Ask the user to enter a number and compute the sum of all its
+# # # digits.
+# # n=int(input())
+# # sum =0 
+# # while n !=0:
+# #     last_digit=n%10
+# #     sum +=last_digit
+# #     n//=10
+# # print(sum)
+
+# x=int(input())
+# def perfetch_number(n):
+#     if n <1 or n>1000:
+#         print("Invaild Number, try again")
+#     else:
+#         sum = 0
+#         for i in range (1,n):
+#             if n%i==0:
+#                 sum+=i
+#         return sum == n
+# print("true" if perfetch_number(x) else "false")
+        
 # Exercise 18: Ask the user to input a positive number and reverse its digits
 # (e.g., input 1234 → output 4321).
+
+
 # Exercise 19: Ask the user to enter a positive integer and find the largest
 # digit in that number.
 # Exercise 20: Write a recursive function to compute the sum of all integers

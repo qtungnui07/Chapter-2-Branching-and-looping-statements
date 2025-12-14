@@ -48,3 +48,18 @@ Where:
 F(0) = 0
 F(1) = 1
 F(n) for n > 1 is the sum of the two preceding numbers.
+
+
+
+recursive function
+
+ham` de quy
+
+
+GCD la uoc chung lon nhat 
+greatest common divisor
+
+
+
+perfect numbers
+so hoan hao
